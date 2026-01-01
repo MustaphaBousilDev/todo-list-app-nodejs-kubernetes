@@ -1,0 +1,24 @@
+{
+  "name": "todo-list-app-nodejs-kubernetes",
+  "version": "1.0.0",
+  "description": "Todo List App with Node.js, Docker, and Kubernetes This project is a simple Todo List application built using Node.js and Express, containerized with Docker, and deployed to a Kubernetes cluster. It serves as a learning resource for beginners to understand and practice the basics of Node.js, Docker, and Kubernetes. Project Overview The Todo List App allows users to perform the following actions:",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MustaphaBousilDev/todo-list-app-nodejs-kubernetes.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MustaphaBousilDev/todo-list-app-nodejs-kubernetes/issues"
+  },
+  "homepage": "https://github.com/MustaphaBousilDev/todo-list-app-nodejs-kubernetes#readme",
+  "dependencies": {
+    "body-parser": "^2.2.1",
+    "express": "^5.2.1"
+  }
+}
