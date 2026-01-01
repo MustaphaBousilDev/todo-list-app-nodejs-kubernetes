@@ -3,7 +3,7 @@ const bodyParser = require('body-parser');
 const todosRouter = require('./routers/todos');
 
 const app = express();
-const port = 3000;
+const port = 4000;
 
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
